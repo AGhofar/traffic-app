@@ -25,7 +25,7 @@
                         <div class="card-body">
                             <p>
                                 Waktu survei maksimal satu hari dan di hari yang sama <br>
-                                Saat pengisian data lalu lintas dimulai dari UTARA - TIMUR - SELATAN - BARAT <br>
+                                Saat pengisian data lalu lintas dimulai dari UTARA - TIMUR - SELATAN <br>
                                 Arah arus berurutan dari RT - ST - LT <br>
                                 Data lalu lintas per 10 menit
                             </p>
