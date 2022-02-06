@@ -1,0 +1,13 @@
+{
+    "name": "Simpang4",
+    "alias": "simpang4",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Simpang4\\Providers\\Simpang4ServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
