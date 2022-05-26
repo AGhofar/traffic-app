@@ -6,11 +6,11 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1><b>Tambah Data Simpang</b></h1>
+                    <h1><b>Edit Data Simpang</b></h1>
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item font-weight-bold">Simpang 4</li>
                         <li class="breadcrumb-item"><a href="{{ url('/simpang4/data-simpang') }}">Data Simpang</a></li>
-                        <li class="breadcrumb-item active">Tambah Data Simpang</li>
+                        <li class="breadcrumb-item active">Edit Data Simpang</li>
                     </ol>
                 </div>
             </div>
@@ -49,14 +49,25 @@
                         <div class="form-group col-12">
                             <label for="mc">MC</label>
                             <input type="number" class="form-control" id="mc" name="mc" value="{{ $data_simpang->mc }}" required readonly>
+                            <small>[11]. SEPEDA MOTOR, SCOOTER, SEPEDA KUMBANG</small>
                         </div>
                         <div class="form-group col-12">
                             <label for="lv">LV</label>
                             <input type="text" class="form-control" id="lv" name="lv" value="{{ $data_simpang->lv }}" required readonly>
+                            <small>[01]. KENDARAAN BERODA TIGA</small><br>
+                            <small>[02]. SEDAN, ST WAGON, JEEP</small><br>
+                            <small>[03]. OPLET (PICK UP, COMBI, SUBURBAN)</small><br>
+                            <small>[04]. MICRO BUS</small><br>
+                            <small>[06]. PICK UP, MOBIL HANTARAN</small><br>
+                            <small>[07]. MICRO TRUCK</small>
                         </div>
                         <div class="form-group col-12">
                             <label for="hv">HV</label>
                             <input type="text" class="form-control" id="hv" name="hv" value="{{ $data_simpang->hv }}" required readonly>
+                            <small>[05]. BUS</small><br>
+                            <small>[08]. TRUCK AS 2, MOBIL TANGKI</small><br>
+                            <small>[09]. TRUCK AS 3</small><br>
+                            <small>[10]. MOBIL  GANDENGAN, MOBIL SEMI TRAILER</small>
                         </div>
                         <div class="col-12 row mt-3">
                             <div class="col-sm-12 col-md-6 col-xl-6">
