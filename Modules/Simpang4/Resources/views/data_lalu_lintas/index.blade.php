@@ -13,7 +13,7 @@
                     </ol>
                 </div>
                 <div class="col-sm-6 d-flex justify-content-end align-items-center">
-                    <a href="{{ url('simpang4/data-lalu-lintas/tambah') }}" class="btn btn-primary btn-lg"><i class="fa fa-plus"></i>&nbsp;&nbsp;Tambah Data</a>
+                    <a href="{{ url('simpang4/data-lalu-lintas/tambah') }}" class="btn btn-primary btn-lg"><i class="fa fa-plus"></i>&nbsp;&nbsp;New Case</a>
                 </div>
             </div>
         </div><!-- /.container-fluid -->
